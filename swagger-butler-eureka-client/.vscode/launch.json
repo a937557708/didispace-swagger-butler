@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwaggerButlerClient<swagger-butler-eureka-client>",
+            "request": "launch",
+            "mainClass": "com.didispace.SwaggerButlerClient",
+            "projectName": "swagger-butler-eureka-client"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Debug<swagger-butler-eureka-client>",
+            "request": "launch",
+            "mainClass": "com.didispace.utils.Debug",
+            "projectName": "swagger-butler-eureka-client"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FTPUtil<swagger-butler-eureka-client>",
+            "request": "launch",
+            "mainClass": "com.didispace.utils.FTPUtil",
+            "projectName": "swagger-butler-eureka-client"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GitUtil<swagger-butler-eureka-client>",
+            "request": "launch",
+            "mainClass": "com.didispace.utils.GitUtil",
+            "projectName": "swagger-butler-eureka-client"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GitUtils<swagger-butler-eureka-client>",
+            "request": "launch",
+            "mainClass": "com.didispace.utils.GitUtils",
+            "projectName": "swagger-butler-eureka-client"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringExtend<swagger-butler-eureka-client>",
+            "request": "launch",
+            "mainClass": "com.didispace.utils.StringExtend",
+            "projectName": "swagger-butler-eureka-client"
+        }
+    ]
+}
